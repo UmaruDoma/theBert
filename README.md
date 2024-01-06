@@ -9,5 +9,5 @@ pip install clip-client
 python -m clip_server
 from clip_client import Client
 
-c = Client('grpc://0.0.0.0:23456')
+c = Client('grpc://172.16.5.4:23456')
 c.profile()
